@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Event Listener</title>
+</head>
+<body>
+     <nav>
+        <p class="paragraph"> hey this is Muzaffar Ali</p>
+    </nav>
+    <div class="block">
+        <h4>
+            I am learning event Listener <span class="username">Muzaffar Ali</span>
+        </h4>
+        <p class="block-remove"> Query selector learn and then practice my self</p>
+        <pre><code>console.log("hey there") </code></pre>
+    </div>
+    <button id="clicked">click me</button>
+    <script>
+        const ele = document.querySelector("#clicked")
+        ele.addEventListener("click",()=>{
+            console.log("hey I am");
+            
+        }); 
+        
+
+    </script>
+    
+</body>
+</html>
